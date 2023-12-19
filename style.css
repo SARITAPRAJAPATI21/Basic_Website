@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+   text-decoration: none;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  /* background-color: #222337;*/
+  background-color: #fff;
+   color: rgb(13, 13, 14);
+
+}
+header
+{position: fixed; 
+    width: 100% ;
+    top: 0  ;
+    right:0  ;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+     padding:  28px  12% ; 
+     transition: all .50sec ease ;
+     background-color: #fff;
+    
+  
+
+}
+.logo
+{
+    display: flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.logo span{
+    color: #4169E1;
+    font-size: 34px;
+    font-style: oblique;
+}
+
+
+.navbar
+{display: flex;
+}
+.navbar a{
+    margin: 4px 45px  ;
+    text-decoration: none;
+    
+ }
+.navbar li
+{
+    list-style-type: none;
+    font-weight: 200;
+
+    
+}
+
+.main a{
+    background-color: #4169E1;
+   
+    color: black;
+    padding: 12px 18px  ;
+    border-radius: 12px ;
+}
+.img img
+ {/*t b r l*/
+    margin-top: 32px;
+    height: 57vh ;
+    width:100%;
+    
+}
+.img h1{
+    text-align: center;
+    padding: 12px 23px  ; 
+    font-family: monospace;
+    font-style: oblique;
+}
+.img  p
+{ padding: 20px  25px 25px 20px ;
+    justify-content: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
+
+}
+#About,#Services{
+    margin: 50vh 23px 45px 45px;
+
+    
+}
+#About  p{
+    height: 30vh;
+    width: 50%;
+    padding: 22px 27px 23px 22px;
+    font-size: 15px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    
+}
+#About center h1{
+     margin-bottom: 30px;
+    font-size: 55px;
+
+}
+#Services center h1{
+    margin-bottom: 30px;
+    font-size: 55px;
+}
+#Services  p{
+    height: 30vh;
+    width: 50%;
+    padding: 22px 27px 23px 22px;
+    
+}
